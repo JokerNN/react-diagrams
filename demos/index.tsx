@@ -13,6 +13,7 @@ import demo8 from "./demo8/index";
 import demo9 from "./demo9/index";
 import demo10 from "./demo10/index";
 import demo11 from "./demo11/index";
+import demo12 from './demo12';
 import demoDagre from "./demo-dagre/index";
 import {Toolkit} from "../src/Toolkit";
 
@@ -75,4 +76,7 @@ storiesOf("React Diagrams", module)
 	})
 	.add("Zoom to fit", () => {
 		return demo11();
-	});
+	})
+  .add('orto', () => {
+    return demo12();
+  });
